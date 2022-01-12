@@ -1,0 +1,339 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "Administração",
+      "coordenador": "Ricardo Dantas"
+    },
+    {
+      "id": 2,
+      "nome": "Engenharia da Computação",
+      "coordenador": "Claudia Heidemann"
+    },
+    {
+      "id": 3,
+      "nome": "Engenharia Civil",
+      "coordenador": "Lourival Domingos Zamuner"
+    },
+    {
+      "id": 4,
+      "nome": "Agronomia",
+      "coordenador": "Sergio Ricardo Sirotti"
+    },
+    {
+      "id": 5,
+      "nome": "Nutrição",
+      "coordenador": "Carla Sirotti"
+    }
+  ],
+  "turmas": [
+    {
+      "id": 1,
+      "cursoId": 1,
+      "descricao": "ADMN 1Serie"
+    },
+    {
+      "id": 2,
+      "cursoId": 1,
+      "descricao": "ADMN 2Serie"
+    },
+    {
+      "id": 3,
+      "cursoId": 2,
+      "descricao": "ENGCOMPN 4Serie"
+    },
+    {
+      "id": 4,
+      "cursoId": 2,
+      "descricao": "ENGCOMPN 1Serie"
+    },
+    {
+      "id": 5,
+      "cursoId": 3,
+      "descricao": "ECN 1Serie"
+    },
+    {
+      "id": 6,
+      "cursoId": 3,
+      "descricao": "ECN 4Serie"
+    },
+    {
+      "id": 7,
+      "cursoId": 3,
+      "descricao": "ECD 1Serie"
+    },
+    {
+      "id": 8,
+      "cursoId": 4,
+      "descricao": "AGRD 5Serie"
+    },
+    {
+      "id": 9,
+      "cursoId": 4,
+      "descricao": "AGRN 3Serie"
+    },
+    {
+      "id": 10,
+      "cursoId": 5,
+      "descricao": "NUTD 1Serie"
+    },
+    {
+      "id": 11,
+      "cursoId": 5,
+      "descricao": "NUTN 4Serie"
+    }
+  ],
+  "disciplinas": [
+    {
+      "id": 1,
+      "turmaId": 1,
+      "descricao": "Empreendedorismo - 2021 - 1 Sem"
+    },
+    {
+      "id": 2,
+      "turmaId": 1,
+      "descricao": "Gestão Publica - 2021 - 1 Sem"
+    },
+    {
+      "id": 3,
+      "turmaId": 3,
+      "descricao": "Front-End - 2021 - 1 Sem"
+    }
+  ],
+  "planos": [
+    {
+      "id": 1,
+      "disciplinaId": 1,
+      "anoLetivo": 2021,
+      "periodo": "Noturno"
+    },
+    {
+      "anoLetivo": "2021",
+      "modalidade": "Presencial",
+      "periodo": "Noturno",
+      "cargaHoraria": "100",
+      "ObjetivoGeral": "ob",
+      "outros": "asda",
+      "observacao": "dsad",
+      "referencias": "dsa",
+      "professor": "Peter Parker",
+      "disciplinaId": 3,
+      "nomePlano": "ENGCOMPN 4Serie - 2022",
+      "topicos": {
+        "1": {
+          "1": "AAA",
+          "2": "BBB",
+          "3": "CCC"
+        },
+        "2": {
+          "1": "DDD",
+          "2": "EEE"
+        },
+        "3": {
+          "1": "FFF"
+        }
+      },
+      "id": 2
+    },
+    {
+      "professor": "Peter Parker",
+      "disciplinaId": 1,
+      "nomePlano": "ADMN 1Serie - undefined",
+      "id": 3
+    }
+  ],
+  "topicos": [
+    {
+      "id": 1,
+      "planoId": 2,
+      "descricao": "asdjsaoijisod",
+      "questoes_vinculadas": [
+        {
+          "id": 2,
+          "descricao": "Questão 2"
+        },
+        {
+          "id": 1,
+          "descricao": "Questão 1"
+        },
+        {
+          "id": 3,
+          "descricao": "Questão 3"
+        },
+        {
+          "id": 5,
+          "descricao": "Questão 5"
+        },
+        {
+          "id": 6,
+          "descricao": "Questão 6"
+        },
+        {
+          "id": 4,
+          "descricao": "Questão 4"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "disciplinaId": 1,
+      "descricao": "qwpeiqwpoeiwopqe",
+      "questoes_vinculadas": [
+        {
+          "id": 3,
+          "descricao": "Questão 3"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "disciplinaId": 1,
+      "descricao": "kaskdsakdksda",
+      "questoes_vinculadas": [
+        {
+          "id": 3,
+          "descricao": "Questão 3"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "disciplinaId": 3,
+      "descricao": "asaspdopla",
+      "questoes_vinculadas": [
+        {
+          "id": 4,
+          "descricao": "Questão 4"
+        },
+        {
+          "id": 5,
+          "descricao": "Questão 5"
+        },
+        {
+          "id": 6,
+          "descricao": "Questão 6"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "disciplinaId": 3,
+      "descricao": "asdrtre",
+      "questoes_vinculadas": [
+        {
+          "id": 1,
+          "descricao": "Questão 1"
+        },
+        {
+          "id": 2,
+          "descricao": "Questão 2"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "disciplinaId": 3,
+      "descricao": "cmbcxvxvc",
+      "questoes_vinculadas": [
+        {
+          "id": 3,
+          "descricao": "Questão 3"
+        }
+      ]
+    },
+    {
+      "planoId": 3,
+      "nomeTopico": "nometeste",
+      "items": [
+        {
+          "id": 1,
+          "descricao": "1.1-aaaa"
+        },
+        {
+          "id": 2,
+          "descricao": "1.2-bbbb"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "planoId": 3,
+      "nomeTopico": "teste",
+      "descricao": [
+        "1.1",
+        "1.2"
+      ],
+      "id": 8
+    }
+  ],
+  "questoes": [
+    {
+      "id": 1,
+      "descricao": "Questão 1"
+    },
+    {
+      "id": 2,
+      "descricao": "Questão 2"
+    },
+    {
+      "id": 3,
+      "descricao": "Questão 3"
+    },
+    {
+      "id": 4,
+      "descricao": "Questão 4"
+    },
+    {
+      "id": 5,
+      "descricao": "Questão 5"
+    },
+    {
+      "id": 6,
+      "descricao": "Questão 6"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "login": "johndoe",
+      "senha": "$2a$12$kIEXstzK5cGJ6PxeJ6xcXuDJNvyvLhdqj5m1X0XIU1TDr72km13Ca",
+      "nome": "John Doe",
+      "coordenador": true,
+      "professores_id": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "login": "janedoe",
+      "senha": "$2a$12$0X8RI9ZzuJL.bzsN57H5/.66kjHqlOjy5w4ljpiYfJaMjxPhYhtZa",
+      "nome": "Jane Doe",
+      "professores_id": []
+    },
+    {
+      "id": 3,
+      "login": "skywalker",
+      "senha": "$2a$12$2c62LSIRDmBeJ2o0ggdWgOuOFjtsxwGxh/bRGyEp1cu0SzZnosDy6",
+      "nome": "Luke Skywalker",
+      "professores_id": []
+    },
+    {
+      "id": 4,
+      "login": "peter",
+      "senha": "$2a$12$pwnPq43UTKv5Qnq/q6jXhOI.nThCuJCLJbnwXDAhBHLayTNSVK2mC",
+      "nome": "Peter Parker",
+      "coordenador": true,
+      "professores_id": [
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "login": "wayne",
+      "senha": "$2a$12$PuoyqkvuV8QVJelBEmAEl.1FBM7mP/.HapLaizKp15Dclu9Z4oyB6",
+      "nome": "Bruce Wayne",
+      "professores_id": []
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "/cursos": "/cursos?_embed=turmas",
+    "/cursos/:cursoId": "/cursos/:cursoId?_embed=turmas",
+    "/cursos/:cursoId/turmas": "/turmas?cursoId=:cursoId",
+    "/cursos/:cursoId/turmas/:turmaId": "/turmas/:turmaId",
+    "/cursos/:cursoId/turmas/:turmaId/disciplinas": "/disciplinas?turmaId=:turmaId",
+    "/cursos/:cursoId/turmas/:turmaId/disciplinas/:disciplinaId": "/disciplinas/:disciplinaId?_embed=planos",
+    "/cursos/:cursoId/turmas/:turmaId/disciplinas/:disciplinaId/planos": "/planos?disciplinaId=:disciplinaId",
+    "/cursos/:cursoId/turmas/:turmaId/disciplinas/:disciplinaId/planos/:planoId": "/planos/:planoId",
+    "/cursos/:cursoId/turmas/:turmaId/disciplinas/:disciplinaId/planos/:planoId/topicos": "/topicos?planoId=:planoId",
+    "/cursos/:cursoId/turmas/:turmaId/disciplinas/:disciplinaId/planos/:planoId/topicos/:topicoId": "/topicos/:topicoId"
+}
